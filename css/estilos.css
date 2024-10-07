@@ -1,0 +1,721 @@
+/*index.html*/
+
+#body{
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background-image: url(../img/home-hero\ \(2\).webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-size: 1600px;
+}
+
+#body .partePrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: 4px;
+}
+
+#body .encabezadoPrincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+#body .cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-end: 46px;
+    padding-block-start: 0px;
+}
+
+#body .cabecera .encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style-type: none;
+    background: hsla(235, 86%, 19%, 0.7);
+    padding-inline-start: 0px;
+    padding: 30px;
+    font-size: 1.4rem;
+}
+
+#body a{
+    text-decoration: none;
+    color: white;
+}
+
+#body img{
+    height: 200px;
+    margin-block-end: -84px;
+}
+
+#body .letra {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#body .letra p{
+    display: flex;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+#body .encabezado{
+    display: flex;
+    list-style-type: none;
+    font-weight: 500;
+    gap: 15px;
+}
+
+#body .footer p{
+    color: white;
+}
+
+/*Fin index.html*/
+
+
+/* info.html*/
+
+/*Encabezado*/
+
+#body2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+}
+
+#body2 .encabezado{
+    display: flex;
+    background-image: url(../img/amped_header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100rem;
+    height: 13rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#body2 .encabezado div img{
+    height: 5rem;
+}
+
+#body2 .encabezado .encabezadoSecu{
+    display: flex;
+    flex-direction: column;
+    background: #080e59b3;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 70px;
+}
+
+#body2 .encabezado div div ul{
+    display: flex;
+    list-style: none;
+    GAP: 16px;
+}
+
+#body2 .encabezado div div ul li a:hover{
+    color: #a4f479;
+    border-bottom: solid 1px #a4f479;
+    text-decoration: none;
+}
+
+#body2 .encabezado div div ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+/* Fin Encabezado*/
+
+#body2 .cuerpo .video{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#body2 .cuerpo .video .titulo{
+    font-weight: 900;
+    font-size: 40px;
+    margin-block-start: 60px;
+    margin-block-end: 15px;
+}
+
+#body2 .cuerpo .video p{
+    margin-left: 306px;
+    margin-right: 330px;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: justify;
+    margin-block-end: 30px;
+}
+
+#body2 .cuerpo .video .piedevideo{
+    margin-block-start: -6px;
+    margin-left: -193px;
+    font-size: 0.7rem;
+}
+
+
+#body2 .cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: #070e58;
+    line-height: 25px;
+    
+}
+
+#body2 .cuerpo .cabeza{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#body2 .cuerpo .letra{
+    margin-left: 133px;
+    margin-right: 130px;
+    margin-block-end: 4px;
+    font-size: 1rem;
+}
+
+#body2 .cuerpo .lista{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    gap: 7px;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-block-end: 50px;
+    font-size: 1rem;
+}
+
+#body2 .cuerpo .lista dt{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#body2 .cuerpo .lista div{
+    border: solid;
+    border-right: 0px;
+    border-block-end: 0px;
+    border-block-start: 0px;
+    font-weight: 300;
+}
+
+/*footer*/
+
+#body2 .footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #070e58;
+    padding-left: 140px;
+    font-weight: 300;
+}
+
+#body2 .footer div .links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 15px;
+}
+
+#body2 .footer .f2023{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding-left: 40px;
+    font-size: 10px;
+}
+
+#body2 .footer div .links li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*fin footer*/
+
+
+/*Calendario*/
+
+/*Encabezado*/
+
+#body3{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+}
+
+#body3 .encabezado{
+    display: flex;
+    background-image: url(../img/amped_header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100rem;
+    height: 13rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#body3 .encabezado div img{
+    height: 5rem;
+}
+
+#body3 .encabezado .encabezadoSecu{
+    display: flex;
+    flex-direction: column;
+    background: hsla(236, 84%, 19%, 0.7);
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 70px;
+}
+
+#body3 .encabezado div div ul{
+    display: flex;
+    list-style: none;
+    GAP: 16px;
+}
+
+#body3 .encabezado div div ul li a:hover{
+    color: #a4f479;
+    border-bottom: solid 1px #a4f479;
+    text-decoration: none;
+}
+
+#body3 .encabezado div div ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+/*Fin Encabezado*/
+
+#body3 .cuerpo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body3 .cuerpo div .titulo{
+    font-weight: 900;
+    color: #070e58;
+    font-size: 45px;
+    margin-block-end: -10px;
+}
+
+#body3 .cuerpo div .texto{
+    color: #070e58;
+    font-weight: 300;
+    font-size: 25px;
+    margin-right: 342px;
+    margin-left: 320px;
+}
+
+#body3 table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 75%;
+    text-align: left;
+    border: 1px solid #5865f2;
+    border-left: 0px;
+    border-right: 0px;
+    margin-block-end: 10px;
+    margin-block-end: 40px;
+    margin-block-start: 40px;
+    color: #070e58;
+}
+
+#body3 caption{
+    border: solid 1px #5865f2;
+    border-left: 0px;
+    border-right: 0px;  
+    border-block-end: 0px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#body3 thead{
+    border: solid 1px #5865f2;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#body3 tbody:nth-child(even) {
+    background-color: #a4f479;
+}
+
+#body3 th{
+    padding: 10px;
+    padding-left: 5px;
+}
+
+#body3 td{
+    padding: 10px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+
+/*footer*/
+
+#body3 .footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #070e58;
+    padding-left: 140px;
+    font-weight: 300;
+}
+
+#body3 .footer div .links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 15px;
+}
+
+#body3 .footer .f2023{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding-left: 40px;
+    font-size: 10px;
+}
+
+
+#body3 .footer div .links li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*fin footer*/
+
+/*tickets*/
+
+#body4{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0px;
+}
+
+#body4 .encabezado{
+    display: flex;
+    background-image: url(../img/amped_header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100rem;
+    height: 13rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#body4 .encabezado div img{
+    height: 5rem;
+}
+
+#body4 .encabezado .encabezadoSecu{
+    display: flex;
+    flex-direction: column;
+    background: hsla(236, 84%, 19%, 0.7);
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 70px;
+}
+
+#body4 .encabezado div div ul{
+    display: flex;
+    list-style: none;
+    GAP: 16px;
+}
+
+#body4 .encabezado div div ul li a:hover{
+    color: #a4f479;
+    border-bottom: solid 1px #a4f479;
+    text-decoration: none;
+}
+
+#body4 .encabezado div div ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+/*fin Encabezado*/
+
+#body4 .cuerpo .textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body4 .cuerpo div .titulo{
+    font-weight: 900;
+    color: #070e58;
+    font-size: 45px;
+    margin-block-end: -10px;
+}
+
+#body4 .cuerpo div .texto{
+    color: #070e58;
+    font-weight: 300;
+    font-size: 25px;
+    margin-right: 342px;
+    margin-left: 320px;
+}
+
+
+#body4 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-end: 30px;
+    margin-block-start: 30px;
+    color: #070e58 ;
+}
+
+#body4 form legend{
+    font-weight: 900;
+}
+
+#body4 form input{
+    color: gray;
+}
+
+#body4 form .informacionPersonal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+    height: 350px;
+    gap: 65px;
+    margin-block-end: 30px;
+    background-color: #5865F2;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+#body4 form .informacionPersonal div{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    align-items: flex-start;
+}
+
+#body4 form .informacionPersonal div div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+#body4 form .informacionPersonal div div input{
+    padding: 5px;
+    padding-right: 300px;
+    border: 1px solid gray;
+    border-radius: 3px;   
+}
+
+#body4 form .informacionPersonal div .birthday{
+    display: flex;
+    flex-direction: column;
+    margin-left: -480px;
+    gap: 5px
+}
+
+#body4 form .informacionPersonal div div input#birthday{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    gap: 348px;
+}
+
+#body4 form .tipoEntrada{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 63%;
+    height: 190px;
+    margin-block-end: 30px;
+    border-radius: 5px;
+    background-color: #5865F2;
+    border: solid 1px gray;
+}
+
+#body4 form .tipoEntrada div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#body4 form .tipoEntrada div select#entrada{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#body4 form .MétododePago{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 63%;
+    height: 175px;
+    margin-block-end: 30px;
+    border-radius: 5px;
+    background-color: #5865F2;
+    border: solid 1px gray;
+}
+
+#body4 form .MétododePago .subPago{
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 20px;
+    gap: 25px;
+}
+
+#body4 form .Informacióntarjeta{
+    display: flex;
+    width: 63%;
+    height: 175px;
+    margin-block-end: 30px;
+    border-radius: 5px;
+    background-color: #5865F2;
+    border: solid 1px gray;
+}
+
+#body4 form .Informacióntarjeta div{
+    display: flex;
+    gap: 10px;
+    padding-block-start: 15px;
+}
+
+#body4 form .Informacióntarjeta div div{
+    display: flex;
+    flex-direction: column;
+}
+
+#body4 form .Informacióntarjeta div div input#númerodetarjetadecréditodébito{
+    padding: 7px;
+    padding-right: 275px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+#body4 form .Informacióntarjeta div div input#fechadeexpiración, input#CVC{
+    padding: 7px;
+    padding-right: 70px;
+    border-radius: 3px;
+    border: 0px;
+}
+
+#body4 form .Direccióndeenvío{
+    display: flex;
+    width: 63%;
+    height: 175px;
+    margin-block-end: 30px;
+    flex-direction: column;
+    padding-block-end: 25px;
+    padding-block-start: 15px;
+    border-radius: 5px;
+    background-color: #5865F2;
+    border: solid 1px gray;
+}
+
+#body4 form .Direccióndeenvío div div{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+#body4 form .Direccióndeenvío input#Dirección{
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+#body4 form .Direccióndeenvío .personal{
+    display: flex;
+    gap: 10px;
+    line-height: 40px;
+}
+
+#body4 form .Direccióndeenvío .personal div input#Población,input#Códigopostal,select#país{
+    padding: 7px;
+    padding-right: 165px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+#body4 form .condiciones{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    height: 175px;
+    margin-block-end: 10px;
+    gap: 30px;
+}
+
+#body4 form input#compra{
+    padding: 15px;
+    color: white;
+    background-color: #5865F2;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-right: 450px;
+    padding-left: 400px;
+}
+
+#body4 form .condiciones input{
+    font-weight: 700;
+}
+/*footer*/
+
+#body4 .footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #070e58;
+    padding-left: 140px;
+    font-weight: 300;
+}
+
+#body4 .footer div .links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 15px;
+}
+
+#body4 .footer .f2023{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding-left: 40px;
+    font-size: 10px;
+}
+
+
+#body4 .footer div .links li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*fin footer*/

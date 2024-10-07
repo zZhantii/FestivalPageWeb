@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body id="body4">
+    <section class="encabezado">
+        <div class="encabezadoSecu">
+            <div>
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li><a href="">INFORMACIÓN</a></li>
+                    <li><a href="">CALENDARIO</a></li>
+                    <li><a href="">ENTRADAS</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="cuerpo">
+        <div class="textos">
+            <p class="titulo">
+                Compra tus entradas 
+            </p>
+            <p class="texto">
+                Ser parte del Amped Festival es una experiencia que no querrás perderte. Ya sea que 
+                desees estar en primera fila o disfrutar del ambiente desde un espacio VIP, tenemos 
+                diferentes tipos de entradas para satisfacer tus necesidades. Completa el formulario a 
+                continuación para asegurarte de estar presente en este evento musical inigualable. 
+            </p>
+        </div>    
+        <form>
+            <fieldset class="informacionPersonal">
+                <legend>Información Personal</legend>
+                <div>
+                    <div>
+                        <label for="fname">Nombre: *</label>
+                        <input type="text" id="fname" name="fname" placeholder="Nombre" minlength="3" maxlength="64" pattern="[a-zA-Z]+" required>
+                    </div>
+                    <div>
+                        <label for="lname">Apellidos: *</label>
+                        <input type="text" id="lname" name="lname" placeholder="Apellidos" minlength="3" maxlength="128" pattern="[a-zA-Z]+" required>
+                    </div>  
+                </div>
+                <div>
+                    <div>
+                        <label for="email">Correo electrónico: *</label>
+                        <input type="email" id="email" name="email" placeholder="E-mail " required>
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="teléfono de contacto" maxlength="9" pattern="[0-9]+">
+                    </div>
+                </div>
+                <div>
+                    <div class="birthday">
+                        <label for="birthday">Fecha de Nacimiento: *</label>
+                        <input type="date" id="birthday" name="birthday" required>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="tipoEntrada">
+                <legend>Tipo de Entrada</legend>
+                <div>
+                    <div>
+                        <p>
+                            Elige el tipo de entrada que prefieres para tu experiencia en el Amped Festival. Cada 
+                            opción ha sido diseñada para proporcionarte el mejor acceso y comodidades durante 
+                            el evento. 
+                        </p>
+                    </div>
+                    <div>
+                        <label for="entrada">Selecciona tu entrada:</label>
+                        <select name="entrada" id="entrada">
+                            <option value="Entrada General - 50€">Entrada General - 50€</option>
+                            <option value="Entrada VIP - 150€ (incluye acceso backstage y zona preferencial) ">Entrada VIP - 150€ (incluye acceso backstage y zona preferencial) </option>
+                            <option value="Pase de dos Días - 120€ ">Pase de dos Días - 120€ </option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="MétododePago">
+                <legend>Método de Pago</legend>
+                <div class="subPago">
+                    <div>
+                        <input type="checkbox" name="paypal" id="paypal">
+                        <label for="paypal">Paypal</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Tarjeta de credito" name="Tarjeta de credito">
+                        <label for="Tarjeta de credito">Tarjeta de credito</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="bizum" id="bizum">
+                        <label for="bizum">Bizum</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="Informacióntarjeta">
+                <legend>Información tarjeta:</legend>
+                <div>
+                    <div>
+                        <label for="númerodetarjetadecréditodébito">Número de tarjeta de crédito / débito:</label>
+                        <input type="text" id="númerodetarjetadecréditodébito" name="númerodetarjetadecréditodébito" placeholder="1234123412341234" maxlength="16" pattern="[0-9]+">
+                    </div>
+                    <div>
+                        <label for="fechadeexpiración">Fecha de expiración:</label>
+                        <input type="text" id="fechadeexpiración" name="fechadeexpiración" maxlength="10">
+                    </div>
+                    <div>
+                        <label for="CVC">CVC:</label>
+                        <input type="email" id="CVC" name="CVC" placeholder="123" maxlength="3" pattern="[0-9]+">
+                    </div>
+                </div>           
+            </fieldset>
+            <fieldset class="Direccióndeenvío">
+                <legend>Dirección de Envío:</legend>
+                <div>
+                    <div>
+                        <label for="Dirección"> Dirección: *</label>
+                        <input type="text" id="Dirección" name="Dirección" placeholder="Dirección" required>
+                    </div>
+                </div>
+                <div class="personal">
+                    <div>
+                        <label for="Población">Población: *</label>
+                        <input type="text" id="Población" name="Población" placeholder="Población" required>
+                    </div>
+                    <div>
+                        <label for="Códigopostal">Código postal: *</label>
+                        <input type="email" id="Códigopostal" name="Códigopostal" placeholder="C.Pstal" maxlength="5" required>
+                    </div>
+                    <div>
+                        <label for="país">País:</label>
+                        <select name="país" id="país">
+                            <option value="España">España</option>
+                            <option value="Alemania">Alemania</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Francia">Francia</option>
+                            <option value="India">India</option>
+                            <option value="Rusia">Rusia</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="condiciones">
+                <label for="comentarios">Comentarios o peticiones especiales</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                <div>
+                    <input type="checkbox" id="condiciones" name="condiciones" required>
+                    <label for="condiciones">He leído y acepto los <a href="">términos y condiciones</a> y la <a href="">política de privacidad</a>.</label>
+                </div>
+            </div>
+            <input type="submit" value="Comprar entrada" id="compra">
+        </form>
+    </section>
+    <footer class="footer">
+        <div>
+            <ul class="links">
+                <li><a href="">Aviso legal</a></li>
+                <li><a href="">Política de privacidad</a></li>
+                <li><a href="">Política de cookies</a></li>
+            </ul>
+        </div>
+        <div class="f2023">
+            <p>2023 © Santiago Lozada</p>
+        </div>
+    </footer>
+</body>
+</html>
